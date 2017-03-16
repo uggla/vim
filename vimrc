@@ -495,6 +495,12 @@ augroup END
 "let g:jedi#completions_command = "<C-Space>"
 "let g:jedi#smart_auto_mappings = 0
 
+" YouCompleMe
+" let g:ycm_python_binary_path = '/usr/bin/python3'
+noremap <Leader>jd :YcmCompleter GoToDefinition<CR>
+noremap <Leader>jr :YcmCompleter GoToReferences<CR>
+noremap <Leader>jb :YcmCompleter GetDoc<CR>
+
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']
 
