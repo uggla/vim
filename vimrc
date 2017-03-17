@@ -501,6 +501,9 @@ noremap <Leader>jd :YcmCompleter GoToDefinition<CR>
 noremap <Leader>jr :YcmCompleter GoToReferences<CR>
 noremap <Leader>jb :YcmCompleter GetDoc<CR>
 
+" yapf
+autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
+
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']
 
