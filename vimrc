@@ -497,6 +497,7 @@ augroup END
 
 " YouCompleMe
 " let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_python_binary_path = 'python'
 noremap <Leader>jd :YcmCompleter GoToDefinition<CR>
 noremap <Leader>jr :YcmCompleter GoToReferences<CR>
 noremap <Leader>jb :YcmCompleter GetDoc<CR>
