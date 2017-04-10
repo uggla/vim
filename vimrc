@@ -84,7 +84,7 @@ Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 
 " html
 "" HTML Bundle
-Plug 'amirh/HTML-AutoCloseTag'
+Plug 'vim-scripts/HTML-AutoCloseTag'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
