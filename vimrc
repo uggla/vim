@@ -668,5 +668,8 @@ else
   let g:airline_symbols.linenr = ''
 endif
 
+" Set spelling language
 :setlocal spell spelllang=en_us
+
+" Do not conceal Markdown
 let g:vim_markdown_conceal=0
