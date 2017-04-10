@@ -669,3 +669,4 @@ else
 endif
 
 :setlocal spell spelllang=en_us
+let g:vim_markdown_conceal=0
