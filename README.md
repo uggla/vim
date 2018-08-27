@@ -34,7 +34,7 @@ Then if you only need C languages and python
 ```
 Adding go + javascript
 ```bash
-./install.py --tern-completer --gocode-completer
+./install.py --tern-completer --gocode-completer --rust-completer
 ```
 
 More details here : https://github.com/Valloric/YouCompleteMe looking for python.py.
