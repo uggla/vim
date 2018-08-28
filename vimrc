@@ -134,6 +134,9 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 
 " Code completion
 Plug 'Valloric/YouCompleteMe'
+
+" Grammalecte
+Plug 'dpelle/vim-Grammalecte'
 "*****************************************************************************
 "*****************************************************************************
 
@@ -644,6 +647,9 @@ let python_highlight_all = 1
 " let g:rustfmt_autosave = 1
 " let g:racer_cmd = "/home/uggla/workspace/rust/bin/racer"
 " let g:racer_experimental_completer = 1
+
+" Grammalecte
+let g:grammalecte_cli_py='/home/uggla/grammalecte/grammalecte-cli.py'
 
 "*****************************************************************************
 "*****************************************************************************
