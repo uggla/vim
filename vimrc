@@ -93,7 +93,6 @@ Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 
 " html
 "" HTML Bundle
-"Plug 'vim-scripts/HTML-AutoCloseTag'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
@@ -118,9 +117,9 @@ Plug 'arnaud-lb/vim-php-namespace'
 
 " python
 "" Python Bundle
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
-Plug 'Valloric/YouCompleteMe'
+Plug 'ambv/black'
 
 
 " rust
@@ -130,9 +129,11 @@ Plug 'Valloric/YouCompleteMe'
 " Rust.vim
 Plug 'rust-lang/rust.vim'
 
-"Enable Jenkins DSL (Jenkinsfile) support
+" Enable Jenkins DSL (Jenkinsfile) support
 Plug 'martinda/Jenkinsfile-vim-syntax'
 
+" Code completion
+Plug 'Valloric/YouCompleteMe'
 "*****************************************************************************
 "*****************************************************************************
 
@@ -184,7 +185,6 @@ set nobackup
 set noswapfile
 
 set fileformats=unix,dos,mac
-set showcmd
 
 if exists('$SHELL')
     set shell=$SHELL
@@ -599,6 +599,9 @@ augroup vimrc-python
       \ cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 augroup END
 
+let g:black_linelength = 79
+autocmd BufWritePre *.py execute ':Black'
+
 " jedi-vim
 " let g:jedi#popup_on_dot = 0
 " let g:jedi#goto_assignments_command = "<leader>g"
@@ -618,7 +621,7 @@ noremap <Leader>jr :YcmCompleter GoToReferences<CR>
 noremap <Leader>jb :YcmCompleter GetDoc<CR>
 
 " yapf
-autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
+" autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
 
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']
