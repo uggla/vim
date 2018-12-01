@@ -129,6 +129,9 @@ Plug 'ambv/black'
 " Rust.vim
 Plug 'rust-lang/rust.vim'
 
+" Bash
+Plug 'z0mbix/vim-shfmt'
+
 " Enable Jenkins DSL (Jenkinsfile) support
 Plug 'martinda/Jenkinsfile-vim-syntax'
 
@@ -647,6 +650,11 @@ let python_highlight_all = 1
 " let g:rustfmt_autosave = 1
 " let g:racer_cmd = "/home/uggla/workspace/rust/bin/racer"
 " let g:racer_experimental_completer = 1
+
+" Bash
+autocmd BufNewFile,BufRead *.sh setlocal expandtab shiftwidth=2 tabstop=2 colorcolumn=79
+let g:shfmt_extra_args = '-i 2 -ci'
+let g:shfmt_fmt_on_save = 1
 
 " Grammalecte
 let g:grammalecte_cli_py='/home/uggla/grammalecte/grammalecte-cli.py'
