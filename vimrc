@@ -652,7 +652,7 @@ let python_highlight_all = 1
 " let g:racer_experimental_completer = 1
 
 " Bash
-autocmd BufNewFile,BufRead *.sh setlocal expandtab shiftwidth=2 tabstop=2 colorcolumn=79
+autocmd BufNewFile,BufRead *.sh,*.bats setlocal expandtab shiftwidth=2 tabstop=2 colorcolumn=79
 let g:shfmt_extra_args = '-i 2 -ci'
 let g:shfmt_fmt_on_save = 1
 
