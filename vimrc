@@ -647,9 +647,9 @@ let python_highlight_all = 1
 " au FileType rust nmap gs <Plug>(rust-def-split)
 " au FileType rust nmap gx <Plug>(rust-def-vertical)
 " au FileType rust nmap <leader>gd <Plug>(rust-doc)
-" let g:rustfmt_autosave = 1
 " let g:racer_cmd = "/home/uggla/workspace/rust/bin/racer"
 " let g:racer_experimental_completer = 1
+let g:rustfmt_autosave = 1
 
 " Bash
 autocmd BufNewFile,BufRead *.sh,*.bats setlocal expandtab shiftwidth=2 tabstop=2 colorcolumn=79
