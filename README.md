@@ -24,6 +24,12 @@ vim
 :PlugStatus
 ```
 
+* Remove unused vim plugins
+```vim
+vim
+:PlugClean
+```
+
 * Install the completion
 ```bash
 cd .vim/plugged/YouCompleteMe
@@ -32,7 +38,7 @@ Then if you only need C languages and python
 ```bash
 ./install.py
 ```
-Adding go + javascript
+Adding javascript + go + rust
 ```bash
 ./install.py --tern-completer --gocode-completer --rust-completer
 ```
