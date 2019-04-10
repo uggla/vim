@@ -131,6 +131,12 @@ Plug 'Valloric/YouCompleteMe'
 
 " Grammalecte
 Plug 'dpelle/vim-Grammalecte'
+
+" Surround
+Plug 'tpope/vim-surround'
+
+" Tabular
+Plug 'godlygeek/tabular'
 "*****************************************************************************
 "*****************************************************************************
 
@@ -684,3 +690,7 @@ endif
 
 " Do not conceal Markdown
 let g:vim_markdown_conceal=0
+
+" DelimitMate
+let delimitMate_expand_cr = 1
+"let delimitMate_expand_space = 1
