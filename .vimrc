@@ -121,6 +121,7 @@ Plug 'ambv/black'
 
 " Rust.vim
 Plug 'rust-lang/rust.vim'
+Plug 'mattn/webapi-vim' " Needed to use RustPlay command
 
 " Bash
 Plug 'z0mbix/vim-shfmt'
@@ -633,6 +634,7 @@ let python_highlight_all = 1
 " let g:racer_cmd = "/home/uggla/workspace/rust/bin/racer"
 " let g:racer_experimental_completer = 1
 let g:rustfmt_autosave = 1
+let g:rust_clip_command = 'xclip -selection clipboard'
 
 " Bash
 autocmd BufNewFile,BufRead *.sh,*.bats setlocal expandtab shiftwidth=2 tabstop=2 colorcolumn=79
