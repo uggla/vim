@@ -39,7 +39,7 @@ Plug 'vim-scripts/CSApprox'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
@@ -143,6 +143,12 @@ Plug 'godlygeek/tabular'
 
 " Ansible
 Plug 'pearofducks/ansible-vim'
+
+" Nord vim (colorscheme)
+Plug 'arcticicestudio/nord-vim'
+
+" Robotframework
+Plug 'mfukar/robotframework-vim'
 "*****************************************************************************
 "*****************************************************************************
 
