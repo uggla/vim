@@ -132,6 +132,7 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 
 " Code completion
 Plug 'Valloric/YouCompleteMe'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Grammalecte
 Plug 'dpelle/vim-Grammalecte'
@@ -390,8 +391,10 @@ nnoremap <leader>sd :DeleteSession<CR>
 nnoremap <leader>sc :CloseSession<CR>
 
 "" Tabs
-nnoremap <Tab> gt
-nnoremap <S-Tab> gT
+" https://superuser.com/a/770082 --> In vim, how can I remap <tab> without also remapping <Ctrl+i>?
+"nnoremap <Tab> gt comment this as it is not possible
+nnoremap <Leader>t gt
+nnoremap <Leader>T gT
 nnoremap <silent> <S-t> :tabnew<CR>
 
 "" Set working directory
