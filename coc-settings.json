@@ -1,0 +1,9 @@
+{
+  "rust-analyzer.cargo-watch.enable": false,
+  "rust-analyzer.serverPath": "/home/uggla/rust/bin/rust-analyzer",
+  "python.setInterpreter": "/usr/bin/python3",
+  "python.linting.enabled": false,
+  "python.jediEnabled": false,
+  "python.linting.flake8Path": "/usr/bin/flake8",
+  "python.jediPath": "/usr/local/lib/python3.7/site-packages/jedi",
+}
