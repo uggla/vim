@@ -718,3 +718,7 @@ let g:vim_markdown_conceal=0
 " DelimitMate
 let delimitMate_expand_cr = 1
 "let delimitMate_expand_space = 1
+
+"" Permanent undo
+set undodir=~/.vim/vimundo
+set undofile
