@@ -773,3 +773,6 @@ inoremap <expr> <C-x> delimitMate#WithinEmptyPair() ? "\<Del>" : "\<S-BS>"
 "" Permanent undo
 set undodir=~/.vim/vimundo
 set undofile
+
+" Prevent accidental writes to buffers that shouldn't be edited
+autocmd BufRead *.orig set readonly
