@@ -130,7 +130,7 @@ Plug 'mattn/webapi-vim' " Needed to use RustPlay command
 Plug 'z0mbix/vim-shfmt'
 
 " Enable Jenkins DSL (Jenkinsfile) support
-Plug 'martinda/Jenkinsfile-vim-syntax'
+"Plug 'martinda/Jenkinsfile-vim-syntax'
 
 " Code completion
 "Plug 'Valloric/YouCompleteMe'
@@ -146,10 +146,7 @@ Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
 
 " Ansible
-Plug 'pearofducks/ansible-vim'
-
-" Nord vim (colorscheme)
-Plug 'arcticicestudio/nord-vim'
+"Plug 'pearofducks/ansible-vim'
 
 " Robotframework
 Plug 'mfukar/robotframework-vim'
