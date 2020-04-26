@@ -68,6 +68,8 @@ Plug 'honza/vim-snippets'
 
 "" Color
 Plug 'tomasr/molokai'
+Plug 'arcticicestudio/nord-vim'
+Plug 'raphamorim/lucario'
 
 "*****************************************************************************
 "" Custom bundles
