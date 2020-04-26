@@ -766,6 +766,8 @@ let g:vim_markdown_conceal=0
 
 " DelimitMate
 let delimitMate_expand_cr = 1
+inoremap <expr> <C-w> delimitMate#JumpAny()
+inoremap <expr> <C-x> delimitMate#WithinEmptyPair() ? "\<Del>" : "\<S-BS>"
 "let delimitMate_expand_space = 1
 
 "" Permanent undo
