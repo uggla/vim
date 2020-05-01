@@ -3,3 +3,4 @@ tests
 .+\.md
 YCM.sh
 plugsnap
+coc-settings.json
