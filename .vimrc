@@ -141,6 +141,7 @@ Plug 'dpelle/vim-Grammalecte'
 
 " Surround
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 
 " Tabular
 Plug 'godlygeek/tabular'
@@ -217,6 +218,7 @@ set number
 
 let no_buffers_menu=1
 silent! colorscheme molokai
+" silent! colorscheme nord
 
 set mousemodel=popup
 set t_Co=256
