@@ -776,3 +776,5 @@ set undofile
 
 " Prevent accidental writes to buffers that shouldn't be edited
 autocmd BufRead *.orig set readonly
+
+set relativenumber
